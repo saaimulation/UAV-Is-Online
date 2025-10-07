@@ -23,7 +23,7 @@ To protect team IP, there will be no raw CAD or giant solver files here.
 The wider rulebook covers flight safety, autonomy, time caps, geofence, batteries and isolation links, scrutineering, documents and deadlines. It sets the frame for what we can build and how we fly.    
 For the fine print see UASRules.pdf, below are only the bits that change aero decisions.
 
-### ᯓ Rules that affect aero
+### ᯓ Rules that affect aerodynamics
 
 • mass and cg  
 tight take off mass and a fixed battery spec mean every gram matters and cg bands drive trim and stability targets
