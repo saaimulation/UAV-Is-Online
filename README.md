@@ -7,10 +7,10 @@ It’s a cockpit view, not a tutorial.
 **Quick links**  
 • [logbook.md](logbook.md) — dated entries and decisions  
 • [UASRules.pdf](UASRules.pdf) — official rules for quick reference  
-• media/ — small screenshots and plots  
-• docs/ — short write ups when needed
+• [media](media/) — small screenshots and plots  
+• [docs](docs/) — short write ups when needed
 
-### What this repo is
+### ❓ What this repo is
 External aerodynamics for a small delivery-mission UAV. Goal is simple. Build one baseline that runs on a normal laptop. Make small changes that are easy to compare. Keep plots clean with axes, units and a caption that actually says something.
 
 I use SimScale for easy access and because its beginner-friendly for both me and the team. Star-CCM+ might be used when I can get a seat.  
@@ -18,12 +18,12 @@ The CAD team uses SolidWorks, so we shall follow that.
 Light Python or MATLAB for quick plotting if needed.  
 To protect team IP, there will be no raw CAD or giant solver files here.
 
-### Rules in one paragraph
+### 📜 Rules in one paragraph
 
 The wider rulebook covers flight safety, autonomy, time caps, geofence, batteries and isolation links, scrutineering, documents and deadlines. It sets the frame for what we can build and how we fly.    
 For the fine print see UASRules.pdf, below are only the bits that change aero decisions.
 
-### Rules that affect aero
+### ᯓ Rules that affect aero
 
 • mass and cg  
 tight take off mass and a fixed battery spec mean every gram matters and cg bands drive trim and stability targets
@@ -48,7 +48,7 @@ high contrast tapes or panels are required, so we need keep edges flush so they 
 
 If a decision depends on a specific clause I will reference the page from UASRules.pdf in the logbook.
 
-### Credits
+### © Credits
 Airframe and testing are a team effort. I’ll name teammates in entries when they want to be named as well as linking their profiles.  
 This repo is published with the team’s OK. Please don’t reuse images commercially without consent.
 
