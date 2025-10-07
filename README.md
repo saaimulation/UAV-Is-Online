@@ -8,7 +8,7 @@ It’s a cockpit view, not a tutorial.
 • [logbook.md](logbook.md) — dated entries and decisions  
 • [UASRules.pdf](UASRules.pdf) — official rules for quick reference  
 • [media](media/) — small screenshots and plots  
-• [docs](docs/) — short write ups when needed
+• [docs](docs/) — short write ups when needed 
 
 ### ❓ What this repo is
 External aerodynamics for a small delivery-mission UAV. Goal is simple. Build one baseline that runs on a normal laptop. Make small changes that are easy to compare. Keep plots clean with axes, units and a caption that actually says something.
