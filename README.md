@@ -13,3 +13,32 @@ If something looks wrong, I will say so and fix it on the next pass.
 Reach out to me if you have any feedback or advice! 
 
 ---
+# 📓 personal logbook
+
+this is my own running record for the uol aerolabs uav project. I lead cfd and I am using this space to track what I tried, why I changed things, and what I learned.
+
+this is not the team tutorial. designs and results are shared here with the team’s ok. no raw cad or giant solver files. screenshots and short notes only.
+
+how I write entries
+short notes only
+one idea per entry
+plain language so future me can follow without detective work
+
+template
+date:
+run id:
+question:
+what changed:
+why:
+what I looked at:
+what I saw:
+next:
+
+naming
+use dates like 2025 10 09 and simple ids like baseline 02 or flap plus2deg
+save images as 2025 10 09_baseline 02_pressure.png with a short caption
+
+credit
+this log reflects my work and decisions as cfd lead
+design and testing are a team effort and I will credit teammates by name in weekly summaries when they want to be named
+```0
