@@ -1,44 +1,55 @@
 # 🛩️ "UAV is online"
 
-IMechE UAS Challenge at the University of Leicester. This repo is my public record as CFD lead for our water delivery mission UAV. No secret sauce here. Just what I tried, what worked, and what I parked for later.
+This is my personal record for the 2026 IMechE UAS Challenge. I lead CFD.  
+I’m logging what I’m working on, why I’m changing things, and results I’m happy to share.  
+It’s a cockpit view, not a tutorial.
 
-This is not the team tutorial. That lives in a private PDF for the squad. Here I am documenting my own work so future me does not need a Red Bull to remember what happened.
+**Quick links**  
+• [logbook.md](logbook.md) — dated entries and decisions  
+• [UASRules.pdf](UASRules.pdf) — official rules for quick reference  
+• media/ — small screenshots and plots  
+• docs/ — short write ups when needed
 
-The aim is simple. Build one baseline that runs on a normal laptop. Make small changes that are easy to compare. Keep plots clean with axes, units, and a caption that actually says something.
+### What this repo is
+External aerodynamics for a small delivery-mission UAV. Goal is simple. Build one baseline that runs on a normal laptop. Make small changes that are easy to compare. Keep plots clean with axes, units and a caption that actually says something.
 
-I am using SimScale for easy access and because its beginner-friendly for myself and the team. Star-CCM might be used when I can get a seat. SolidWorks for tidy geometry edits. Light Python or MATLAB for quick plots if needed. Results are trimmed screenshots and short notes only!
+I use SimScale for easy access and because its beginner-friendly for both me and the team. Star-CCM+ might be used when I can get a seat.  
+The CAD team uses SolidWorks, so we shall follow that.  
+Light Python or MATLAB for quick plotting if needed.  
+To protect team IP, there will be no raw CAD or giant solver files here.
 
-If something looks wrong, I will say so and fix it on the next pass.
+### Rules in one paragraph
 
-Reach out to me if you have any feedback or advice! 
+The wider rulebook covers flight safety, autonomy, time caps, geofence, batteries and isolation links, scrutineering, documents and deadlines. It sets the frame for what we can build and how we fly.    
+For the fine print see UASRules.pdf, below are only the bits that change aero decisions.
 
----
-# 📓 personal logbook
+### Rules that affect aero
 
-this is my own running record for the uol aerolabs uav project. I lead cfd and I am using this space to track what I tried, why I changed things, and what I learned.
+• mass and cg  
+tight take off mass and a fixed battery spec mean every gram matters and cg bands drive trim and stability targets
 
-this is not the team tutorial. designs and results are shared here with the team’s ok. no raw cad or giant solver files. screenshots and short notes only.
+• mission time cap  
+short autonomous flights set realistic cruise and climb numbers and a thrust to energy budget for sizing
 
-how I write entries
-short notes only
-one idea per entry
-plain language so future me can follow without detective work
+• autonomous path length  
+waypoints and geofence make turns wider than straight legs so flown distance is longer and bank adds some drag
 
-template
-date:
-run id:
-question:
-what changed:
-why:
-what I looked at:
-what I saw:
-next:
+• flight termination  
+zero thrust behaviour must be predictable, think about glide attitude and how quickly drag grows when props stop
 
-naming
-use dates like 2025 10 09 and simple ids like baseline 02 or flap plus2deg
-save images as 2025 10 09_baseline 02_pressure.png with a short caption
+• payload corridor  
+water is dispensed between p1 and p3, keep local flow at the release smooth and avoid spray back onto tail and fuselage
 
-credit
-this log reflects my work and decisions as cfd lead
-design and testing are a team effort and I will credit teammates by name in weekly summaries when they want to be named
-```0
+• surface junctions and access  
+scrutineering and quick assembly force panel splits and doors, place them so they do not trip separation or create sharp steps
+
+• visibility and recovery markings  
+high contrast tapes or panels are required, so we need keep edges flush so they do not become unwanted trip strips
+
+If a decision depends on a specific clause I will reference the page from UASRules.pdf in the logbook.
+
+### Credits
+Airframe and testing are a team effort. I’ll name teammates in entries when they want to be named as well as linking their profiles.  
+This repo is published with the team’s OK. Please don’t reuse images commercially without consent.
+
+
