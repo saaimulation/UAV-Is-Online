@@ -5,7 +5,7 @@ This is not the team tutorial. Designs and results are shared here with the team
 
 No raw cad or giant solver files. Screenshots and short notes only.
 
-## ✉️ Template
+### ✉️ Template
 How I write entries: short notes only, one idea per entry, plain language so future me can follow without detective work! 
 
 date:  
@@ -16,7 +16,7 @@ why:
 what I looked at:   
 next:  
 
-## 💳 Credit 
+### 💳 Credit 
 This log reflects my work and decisions as cfd lead. Design and testing are a team effort and I will credit teammates by name in weekly summaries when they want to be named :)
 
 --- 
