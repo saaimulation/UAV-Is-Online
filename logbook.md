@@ -18,5 +18,6 @@ next:
 
 ## 💳 Credit 
 This log reflects my work and decisions as cfd lead. Design and testing are a team effort and I will credit teammates by name in weekly summaries when they want to be named :)
+
 --- 
 
