@@ -5,8 +5,8 @@ I’m logging what I’m working on, why I’m changing things, and results I’
 It’s a cockpit view, not a tutorial.
 
 **Quick links**  
-• [logbook.md](logbook.md) — dated entries and decisions  
-• [UASRules.pdf](UASRules.pdf) — official rules for quick reference  
+• [log-book](logbook.md) — dated entries and decisions  
+• [UAS rules](UASRules.pdf) — official rules for quick reference  
 • [media](media/) — small screenshots and plots  
 • [docs](docs/) — short write ups when needed 
 
